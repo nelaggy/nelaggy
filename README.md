@@ -1,43 +1,15 @@
-# Astro Starter Kit: Minimal
+hi
 
-```sh
-npm create astro@latest -- --template minimal
-```
+i'm galen
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+i study information and computer engineering at trinity college, cambridge (currently in my 3rd year)
 
-## 🚀 Project Structure
+i like: reinforcement learning, travel, generative flow networks, my girlfriend, world models, skiing, any ai research that isn't LLMs, manchester united
 
-Inside of your Astro project, you'll see the following folders and files:
+i'm currently working on: something (i'll add a link when i can)
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+i have previously worked at: [reactwise](https://reactwise.com) and [sphl](https://sgphysicsleague.org)
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+i have also worked on: this [card app](https://card-app-phi-amber.vercel.app/) for singaporean cards and this [calendar](https://engcalendar.com) for cambridge engineers
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+[drop an email](mailto:qgl20@cam.ac.uk) if you want to collaborate or just chat (i'm a bit of a yapper)
