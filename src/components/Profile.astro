@@ -1,0 +1,21 @@
+---
+import { Image } from "astro:assets";
+import Name from "../components/Name.astro";
+import me from "../assets/me.jpeg";
+---
+
+<div class="flex flex-col items-center justify-center">
+    <Image src={me} alt="me" class="rounded-full w-48 h-48 mb-4" loading="eager"/>
+    <Name />
+    <div class="font-extralight text-center">
+        <a href="https://github.com/nelaggy" class="hover:cursor-pointer hover:underline mr-4">github</a> 
+        |
+        <a href="https://www.linkedin.com/in/galen-lee/" class="hover:cursor-pointer hover:underline mx-4">linkedin</a>
+        |
+        <a href="mailto:qgl20@cam.ac.uk" class="hover:cursor-pointer hover:underline ml-4">email</a>
+    </div>
+    <div class="flex flex-col text-center font-light">
+        <a href="/" class="hover:cursor-pointer hover:underline mt-4">about me</a>
+        <a href="/cv/" class="hover:cursor-pointer hover:underline mt-2">my cv</a>
+    </div>
+</div>

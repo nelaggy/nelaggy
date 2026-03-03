@@ -1,17 +1,28 @@
 ---
+import { ClientRouter } from "astro:transitions";
+import Name from "../components/Name.astro";
+import Layout from "../layouts/Layout.astro";
 
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout>
+	<p>
+		hi
+		<br /><br />
+		i'm galen
+		<br /><br />
+		i study information and computer engineering at trinity college, cambridge (currently in my 3rd year)
+		<br /><br />
+		i like reinforcement learning, travel, generative flow networks, my girlfriend, world models, skiing, any ai research that isn't LLMs, manchester united
+		<!-- <br /><br />
+		i'm currently working on something (i'll add a link when i can) -->
+		<br /><br />
+		i have previously worked at <a href="https://reactwise.com" target="_blank" class="text-blue-800 hover:underline">reactwise</a> and <a href="https://sgphysicsleague.org" target="_blank" class="text-blue-800 hover:underline">sphl</a>
+		<br /><br />
+		i have also worked on: this <a href="https://card-app-phi-amber.vercel.app/" target="_blank" class="text-blue-800 hover:underline">card app</a> for singaporean cards and this <a href="https://engcalendar.com" target="_blank" class="text-blue-800 hover:underline">calendar</a> for cambridge engineers
+		<br /><br />
+		<a href="mailto:qgl20@cam.ac.uk" class="text-blue-800 hover:underline">drop an email</a> if you want to collaborate or just chat (i'm a bit of a yapper)
+	</p>
+</Layout>
+
+<ClientRouter />

@@ -1,0 +1,32 @@
+---
+import Profile from "../components/Profile.astro";
+import "../styles/global.css";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<!-- <link rel="icon" href="/favicon.ico" /> -->
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+        <meta name="description" content="galen lee, engineering student" />
+        <meta name="keywords" content="galen, galen lee" />
+        <meta name="author" content="galen lee" />
+        <meta property="og:title" content="galen lee" />
+        <meta property="og:description" content="galen lee, engineering student" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="nelaggy.com" />
+		<title>Galen Lee</title>
+	</head>
+	<body>
+		<div class="flex flex-col md:flex-row items-center justify-center h-screen py-8">
+            <div class="flex flex-col items-center justify-center">
+                <Profile />
+            </div>
+            <div class="w-1/2 min-h-full flex flex-col items-center justify-center p-8">
+                <slot />
+            </div>
+        </div>
+	</body>
+</html>
