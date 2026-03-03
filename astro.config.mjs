@@ -15,8 +15,9 @@ export default defineConfig({
     cssVariable: "--font-zodiak",
     weights: [100]
   }]
-},
+  },
 
+  site: "https://nelaggy.com",
   vite: {
     plugins: [tailwindcss()],
   },
