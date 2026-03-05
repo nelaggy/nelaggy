@@ -6,7 +6,7 @@ i study information and computer engineering at trinity college, cambridge (curr
 
 i like: reinforcement learning, travel, generative flow networks, my girlfriend, world models, skiing, any ai research that isn't LLMs, manchester united
 
-i'm currently working on: something (i'll add a link when i can)
+i'm currently working on: [verrific](https://verrific.co.uk)
 
 i have previously worked at: [reactwise](https://reactwise.com) and [sphl](https://sgphysicsleague.org)
 
